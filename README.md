@@ -1,3 +1,3 @@
 <h1 style="margin: 0 auto;">PODCAST <span>App</span> </h1>
-<a href="/"><img src="https://pngimage.net/wp-content/uploads/2018/06/кнопка-перейти-png-4.png" width="50px" alt=""></a>
+<a href="/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT_BH7SbtXg7OvFZNcqQGjGAjVZ6zwIRzz6zf0ta4YJKOQUJq1u" width="50px" alt=""></a>
 <img src="https://podfm.ru/app/uploads/2019/05/spreaker-logo-1000x562.png" alt="PODCAST">
