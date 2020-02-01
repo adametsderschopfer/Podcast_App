@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.muicss.com/mui-latest/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.muicss.com/mui-latest/js/mui.min.js"></script>
+  <title>Подкаст Вопросы</title>
+</head>
+<body>
+  
+<div id="sidebar">
+  <div class="mui--text-white mui--text-display1 mui--align-vertical">
+      Подкаст вопросы
+  </div>
+  <small class="author">
+      by Adametsofficial
+  </small>
+  <div class="margin-2"></div>
+  <div class="mui-divider"></div>
+
+  <div class="d-f jc-sb">
+      <button class="btn-rs mui-btn mui-btn--small mui-btn--danger mui-btn--raised">
+          Инфа
+      </button>
+
+      <button id="modal_auth_btn" class="mui-btn mui-btn--small mui-btn--raised "><i class="fa fa-lock" aria-hidden="true"></i>Все вопросы</button>
+  </div>
+  <div class="container--view">
+      <div class="mui--text-black-54 custom_class_1 custom_border_1 mui--text-body2">
+          MySocialMedia {
+      </div>
+      <div class="custom_wrap_1">
+          <label for="vk">VK&nbsp;:</label>
+          <a href="https://vk.com/adametsofficial" id="vk" class="custom_class_2">@adametsofficial</a>
+      </div>
+      <div class="custom_wrap_1">
+          <label for="vk">Instagram&nbsp;:</label>
+          <a href="https://www.instagram.com/adametsofficial/" id="vk" class="custom_class_2">@adametsofficial</a>
+      </div>
+      <div class="mui--text-black-54 custom_class_1 custom_border_1 mui--text-body2">
+          }
+      </div>
+
+      <div class="mui--text-black-54 custom_class_1 custom_border_1  mui--text-body2">
+          Исходный код: <br />
+          <span class="arrow"> &rArr;</span> &nbsp;&nbsp;&nbsp;<a href="/" class="custom_class_3 source">
+              Посмотерть </a>&nbsp;&nbsp;&nbsp; <span class="arrow-rev">&lArr;</span>
+      </div>
+  </div>
+</div>
+
+
+
+<div id="content" class="mui-container-fluid">
+  <div class="mui-row">
+    <div class="mui-col-sm-10 mui-col-sm-offset-1">
+      <br>
+      <br>
+      <div class="mui--text-black-54 mui--text-body2">Задай вопрос</div>
+      <div class="mui-divider"></div>
+      <br>
+
+      <form class="mui-form" id="form">
+        <div class="mui-textfield mui-textfield--float-label">
+          <input type="text" id="question-input" required minlength="10" maxlength="256">
+          <label for="question-input">Что хочешь спросить?</label>
+        </div>
+        <button
+          type="submit"
+          id="submit"
+          disabled
+          class="mui-btn mui-btn--raised mui-btn--primary"
+        >
+          Задать вопрос
+        </button>
+      </form>
+
+      <br>
+      <br>
+      <div class="mui--text-black-54 mui--text-body2">Ваши вопросы</div>
+      <div class="mui-divider"></div>
+      <select name="newandold" id="selectOldOrNew">
+        <option value="news" id="news">Самые новые</option>
+        <option value="old" id="old">Самые старые</option>
+      </select>
+      <br>
+      <div id="list"></div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</body>
+</html>
